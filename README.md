@@ -61,7 +61,7 @@ End‑to‑end guide to run a Keras NVIDIA‑style behavioral cloning model on a
 ---
 
 ## Compile ONNX → HEF (Optional)
-1. Run the provided notebook `self-driving-robot-behavioral-cloning-train.ipynb`.
+1. Run the provided notebook `behavioral-cloning-model-train.ipynb`.
 2. The notebook will give you 2 files: `nvidia_model.h5`, `nvidia_model.onnx`, and `calibration_set.npy`
 3. Run on the dev box with HDF installed:
 
