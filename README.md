@@ -32,7 +32,7 @@ End‑to‑end guide to run a Keras NVIDIA‑style behavioral cloning model on a
     ```
 3. **Ensure** all libraries and dependencies are installed (`hailo-all`, `hailofw`, `hailort`, `hailort). Also install:
     ```bash
-    pip install -e requirements.txt
+    pip install -r requirements.txt
     ```
 4. **Upload** the Arduino code in `Arduino` directory into the Arduino Uno device.
 5. **Run** the main code in the Raspberry Pi (requires remote connection):
