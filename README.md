@@ -127,9 +127,3 @@ This robot isn’t perfect—it’s a learning project. Here are concrete next s
     - **Logging:** Record `angle`, `left_pwm`, `right_pwm`, and speed for tuning; visualize after each run.
 
 ---
-
-## License / Credits
-
-* Your model and code — your choice.
-* Hailo trademarks and tooling belong to Hailo Technologies Ltd.
-* This README aggregates workflow steps commonly used with Hailo‑8L and the NVIDIA behavioral‑cloning architecture.
