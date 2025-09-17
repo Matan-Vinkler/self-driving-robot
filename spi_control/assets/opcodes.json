@@ -1,0 +1,10 @@
+{
+"setSpeedRight": 1,
+"setSpeedLeft": 2,
+"forwardRight": 3,
+"forwardleft": 4,
+"backwardRight": 5,
+"backwardLeft": 6,
+"offRight": 7,
+"offLeft": 8
+}
