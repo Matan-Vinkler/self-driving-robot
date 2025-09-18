@@ -1,6 +1,6 @@
 # Raspberry Pi 5 + Hailo‑8L Behavioral Cloning Car
 
-Raspberry Pi 5 autonomous car using the Raspberry Pi AI Kit (Hailo-8L) to run a Keras NVIDIA behavioral-cloning model compiled to **.hef**. Frames are captured with Picamera2, preprocessed (crop→YUV→blur→resize), inferred in real time via HailoRT’s InferModel API, and the predicted steering angle $-1, 1$ is mapped to L298N dual-motor PWM (0–255) for skid-steer control. Includes scripts for ONNX export, Hailo compile, live inference, and motor driving.
+Raspberry Pi 5 autonomous car using the Raspberry Pi AI Kit (Hailo-8L) to run a Keras NVIDIA behavioral-cloning model compiled to **.hef**. Frames are captured with Picamera2, preprocessed (crop→YUV→blur→resize), inferred in real time via HailoRT’s InferModel API, and the predicted steering angle is mapped to L298N dual-motor PWM (0–255) for skid-steer control. Includes scripts for ONNX export, Hailo compile, live inference, and motor driving.
 
 ![the robot](image.jpg)
 
